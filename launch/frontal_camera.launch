@@ -1,0 +1,8 @@
+<!-- Run the cube_finder node -->
+<launch>
+  <!--  -->
+  <node pkg="intel_aero_frontal_camera_ros_driver" name="hdcam_node" type="hdcam" output="screen" respawn="false">
+    <param name="correction_brightness" value="false"/>
+    <param name="gamma" value="0.4"/>
+  </node>
+</launch>
