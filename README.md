@@ -7,7 +7,7 @@ Publish the image from the frontal camera in a ROS topic.
 ```
 mkdir -p ~/Workspace/src
 cd ~/Workspace/src
-git clone https://github.com/LapinCodeur/Intel-aero-frontal-camera-ROS-driver.git
+git clone https://github.com/LapinCodeur/intel_aero_frontal_camera_ros_driver.git
 cd ~/Workspace
 catkin_make
 source ~/Workspace/devel/setup.bash
